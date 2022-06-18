@@ -1,0 +1,252 @@
+body{
+    background-image: url(bg-hero-desktop.svg);
+
+}
+button#tryitfree{
+    float: right;
+    font-family: poppins;
+    font-weight: 550;
+    width: 10em;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+}
+button#tryitfree:hover{
+    font-weight: 400;
+    transition: 0.5s;
+}
+div.top{
+    background-color: hsl(193, 100%, 96%);
+    padding-bottom: 2em;
+}
+ul.top{
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    padding-top: 2em;
+    padding-right: 3em;
+    height: 40px;
+}
+li.top{
+    display: inline;
+}
+section.flex-container1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4em;
+}
+
+div.sentence1{
+    flex: 50%;
+    position: relative;
+    top: 4em;
+
+}
+div.art1{
+    flex: 50%;
+    position: relative;
+    right: 2em;
+}
+h1{
+    font-family: poppins;
+    font-weight: 600;
+}
+p{
+    font-family: open sans;
+    font-weight: 400;
+    font-size: 18px;
+}
+button#start{
+    font-family: poppins;
+    font-weight: 550;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    height: 3em;
+    width: 15em;
+    border-radius: 24px;
+    border: 1px solid hsl(322, 100%, 66%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#start:hover{
+    background-color: hsl(321, 78%, 86%);
+    border: 1px solid hsl(321, 78%, 86%);
+}
+section.flex-container2, section.flex-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: content-box;
+    border: 1px solid grey;
+    width: 80%;
+    position: relative;
+    left: 4em;
+    padding: 5em;
+    top: 4em;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    
+}
+div.sentence2, div.sentence4{
+    flex: 50%;
+    position: relative;
+    top: 4em;
+    
+}
+p.sentence2, p.sentence4{
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+div.art2{
+    flex: 50%;
+    position: relative;
+    left: 10em;
+    
+}
+section.flex-container3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    box-sizing: content-box;
+    border: 1px solid grey;
+    width: 80%;
+    position: relative;
+    left: 4em;
+    padding: 5em;
+    top: 6em;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+
+}
+div.art3{
+    flex: 50%;
+    position: relative;
+
+}
+div.sentence3{
+    flex: 50%;
+    position: relative;
+    left: 10em;
+    top: 4em;
+}
+p.sentence3{
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+section.flex-container4{
+    position: relative;
+    top: 8em;
+}
+div.art4{
+    flex: 50%;
+    position: relative;
+    left: 6em;
+}
+div.community{
+    text-align: center;
+    position: relative;
+    bottom: 15em;
+    left: 25em;
+    background-color: white;
+    width: 50%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    padding: 1em;
+    height: 10em;
+}
+h1.community{
+    color: black;
+}
+button#started{
+    font-family: poppins;
+    font-weight: 550;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    height: 4em;
+    width: 20em;
+    border-radius: 24px;
+    border: 1px solid hsl(322, 100%, 66%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#started:hover{
+        background-color: hsl(321, 78%, 86%);
+        border: 1px solid hsl(321, 78%, 86%);
+}
+section.flex-container5{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    top: 15em;
+    height: 20em;
+    padding-top: 10em;
+    font-family: open sans;
+    padding-left: 2em;
+    background-color: rgb(41, 79, 90);
+}
+img#bottomlogo{
+    color: white;
+}
+div.flex1{
+    flex: 25%;
+    position: relative;
+    right: 25em;
+}
+div.flex2{
+    flex: 25%;
+    position: relative;
+    right: 20em;
+}
+div.flex3{
+    flex: 25%;
+    position: relative;
+    right: 15em;
+}
+div.flex4{
+    flex: 25%;
+    position: relative;
+    right: 10em;
+}
+li.buttom{
+    list-style-type: none;
+    
+}
+a{
+    color: white;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    body{
+        background-color: brown;
+    }    
+    section.flex-container1{
+        flex: column; 
+    }
+}
