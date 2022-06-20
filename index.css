@@ -1,6 +1,6 @@
 body{
     background-image: url(bg-hero-desktop.svg);
-
+    margin: 0;
 }
 button#tryitfree{
     float: right;
@@ -37,14 +37,13 @@ li.top{
 section.flex-container1{
     display: flex;
     flex-direction: row;
-    padding-left: 4em;
+    position: relative;
+    left: 10em;
 }
 
 div.sentence1{
     flex: 50%;
     position: relative;
-    top: 4em;
-
 }
 div.art1{
     flex: 50%;
@@ -128,12 +127,13 @@ section.flex-container3{
 div.art3{
     flex: 50%;
     position: relative;
+    left: 2em;
 
 }
 div.sentence3{
     flex: 50%;
     position: relative;
-    left: 10em;
+    left: 5em;
     top: 4em;
 }
 p.sentence3{
@@ -148,7 +148,7 @@ section.flex-container4{
 div.art4{
     flex: 50%;
     position: relative;
-    left: 6em;
+    left: 5em;
 }
 div.community{
     text-align: center;
@@ -240,13 +240,149 @@ a:active{
     text-decoration: none;
     color: white;
 }
-
-
-@media only screen and (max-width: 1300px) {
-    body{
-        background-color: brown;
-    }    
-    section.flex-container1{
-        flex: column; 
-    }
+footer{
+    background-color: rgb(41, 79, 90);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 25em;
+    left: 55em;
 }
+@media only screen and (max-width: 450px) {
+    body{
+        background-image: url(bg-hero-mobile.svg);}
+        div.top{
+            background-color: hsl(193, 100%, 96%);
+            padding-bottom: 2em;
+        }
+        ul.top{
+            list-style-type: none;
+            margin: 0;
+            padding: auto;
+            padding-top: 2em;
+            height: 40px;
+        }
+        li.top{
+            display: inline;
+        }
+        button#tryitfree{
+            position: relative;
+            left: 3em;
+            bottom: 1em;
+        }
+        p{
+            font-size: 12px;
+        }
+        section.flex-container1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0.5em;
+        }
+        div.sentence1{
+            text-align: center;
+            top: 0em;
+            right: 10em;
+        }
+        div.art1{
+            flex: 50%;
+            position: relative;
+            top: 2em;
+            right: 9em;
+        }
+        div.art2{
+            position: relative;
+            left: -60px;
+        }
+        p.sentence2{
+            font-size: 12px;
+        }
+        section.flex-container2{
+            display: flex;
+            left: 1.5em;
+        }
+        section.flex-container2{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 50%;
+        }
+        div.sentence2{
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        div.art3{
+            position: relative;
+            left: -80px;
+        }
+        p.sentence3{
+            font-size: 12px;
+        }
+        section.flex-container3{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 50%;
+            left: 1.5em;
+        }
+        div.sentence3{
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        section.flex-container4{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 50%;
+            left: 1.5em;
+        }
+        div.sentence4{
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        div.art4{
+            position: relative;
+            left: -65px;
+        }
+        p.sentence4{
+            font-size: 12px;
+        }
+        section.flex-container5{
+            flex-direction: column;
+            height: 50em;
+        }
+        div.community{
+            text-align: center;
+            position: relative;
+            width: 80%;
+            left: 0.5em;
+        }
+        h1.community{
+            font-size: medium;
+        }
+        div.flex1{
+            bottom: 12em;
+            right: 0em;
+        }
+        div.flex2{
+            bottom: 12em;
+            right: 3em;
+        }
+        div.flex3{
+            bottom: 12em;
+            right: 3em;
+        }
+        div.flex4{
+            bottom: 9em;
+            right: 0em;
+            left: 9em;
+        }
+        footer{
+            position: relative;
+            bottom: 12em;
+            left: 2em;
+        }
+    }
