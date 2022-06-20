@@ -51,7 +51,7 @@ div.art1{
     right: 2em;
 }
 h1{
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;;
     font-weight: 600;
 }
 p{
@@ -269,6 +269,7 @@ footer{
             position: relative;
             left: 3em;
             bottom: 1em;
+            color: black;
         }
         p{
             font-size: 12px;
